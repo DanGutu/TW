@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inregistrare</title>
+    <link rel="stylesheet" href="../main.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="box">
+                <ul class="nav__list">
+                    <li class="link__item">
+                        <a href="../index.html" class="link">Home</a>
+                    </li>
+                    <li class="link__item">
+                        <a href="../main/general.html" class="link">General</a>
+                    </li>
+                    <li class="link__item">
+                        <a href="../main/familia.html" class="link">Familia</a>
+                    </li>
+                    <li class="link__item">
+                        <a href="../main/copilaria.html" class="link">Copilaria</a>
+                    </li>
+                    <li class="link__item">
+                        <a href="../main/moartea.html" class="link">Moartea</a>
+                    </li>
+                    <li class="link__item">
+                        <a href="../main/gallery.html" class="link">Gallery</a>
+                    </li>
+                    <li class="link__item">
+                        <a href="login.html" class="link">Login</a>
+                    </li>
+                    <li class="link__item">
+                        <a href="register.html" class="link">Register</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+    <div class="box_form" id="signin_form">
+        <form id="signin" method="post" enctype="multipart/form-data">
+            <h2 class="sign-title">Inregistrare</h2>
+            <input class="signin-input" type="text" id="signName" name="signName" placeholder="Name">
+            <input class="signin-input" type="email" id="signEmail" name="signEmail" placeholder="example@email.com">
+            <input class="signin-input" type="password" id="signPassword" name="signPassword" placeholder="Password">
+            <input class="signin-input" type="password" id="signPasswordCheck" name="signPasswordCheck" placeholder="Confirm password">
+            <input type="submit" name="signin-btn" value="Login" id="signin-btn">
+        </form>
+    </div>
+
+    <div class="box_form" id="signin_form_completat" style="display: none"></div>
+
+    <footer class="footer">
+        <div class="box">
+            <ul class="footer__list">
+                <li class="footer_item">
+                    <a href="https://www.facebook.com/" class="footer__link">Facebook</a>
+                </li>
+                <li class="footer_item">
+                    <a href="https://www.instagram.com/" class="footer__link">Instagram</a>
+                </li>
+                <li class="footer_item">
+                    <a href="https://www.telegram.org/" class="footer__link">Telegram</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.min.js"></script>
+    <script src="register.js"></script>
+</body>
+
+</html>
